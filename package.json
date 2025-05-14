@@ -1,0 +1,20 @@
+{
+  "name": "bulk-order-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "cd client && npm install",
+    "build": "cd client && npm install && npm run build",
+    "start": "cd client && npm run preview"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "workspaces": [
+    "client"
+  ],
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}
